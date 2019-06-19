@@ -1,7 +1,7 @@
 # Twitter_Classification
 
 
-<img src = "./mode_5/images/image1.png" style="max-width:65%;">
+<img src = "./mode_5/images/image1.png" width="527" height="340">
 
 A
 <img src = "./mode_5/images/image2.png">
