@@ -65,12 +65,14 @@ count vector
 
 <img src = "./mode_5/images/image12.2.png">
 
-a
+NB confusion matrix
 
 <img src = "./mode_5/images/image15.png">
 
-a
+feature importance
+
 <img src = "./mode_5/images/image16.png">
+
 a
 
 <img src = "./mode_5/images/image17.png">
