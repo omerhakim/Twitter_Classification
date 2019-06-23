@@ -14,7 +14,7 @@ Using the Library “Twint”, I scraped all the tweets of the US Congress membe
 One of the first thing we can see is that the democrats tweet much more. 267 Democrats responsible for 112,044 tweets while 241 democrats were responsible for 64,236 tweets
 <img src = "./mode_5/images/image3.png">
 
-A
+from the top 5 highest number of Tweets by Congressman for the time being researched, 4 are democrats (Patty Murray, Debbie Mucarsel Powell, Pramila Jayapal, Sheldon Whitehouse) and only one is republican (Rob Portman).
 <img src = "./mode_5/images/image2.png">
 A
 <img src = "./mode_5/images/image4.png">
