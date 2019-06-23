@@ -50,16 +50,16 @@ and create vectors from each tweet
 
 <img src = "./mode_5/images/image12.png">
 
-a
+Tf- Idf
 
 <img src = "./mode_5/images/image12.1.png">
 
-a
+NB confudion matrix
 
 
 <img src = "./mode_5/images/image13.png">
 
-a
+count vector
 
 <img src = "./mode_5/images/image14.png">
 
