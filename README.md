@@ -75,11 +75,11 @@ a
 
 <img src = "./mode_5/images/image17.png">
 
-a
+NB Cunfusion and accuracy
 
 <img src = "./mode_5/images/image18.png">
 
-a
+summary of all models
 
 <img src = "./mode_5/images/image18.1.png">
 
