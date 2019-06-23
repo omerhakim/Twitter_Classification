@@ -93,4 +93,6 @@ feature importance
 
 <img src = "./mode_5/images/image20.png">
 
-summary
+Future development: In this model, I used a simple R vs. D classification, but future models can also use cosine similarity and other methods to check difference between users and therefore be utilized for targeted messaging.
+Twint is also able to scrape followers, retweets and additional features that could potentially be layered into this model.
+
