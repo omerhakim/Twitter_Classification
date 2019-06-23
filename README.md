@@ -33,6 +33,17 @@ I did some research regarding the most common unique words in each group, and la
 
 <img src = "./mode_5/images/image6.png">
 
+
+-
+
+more images of NGRAMs
+
+-
+
+
+
+
+
 Stemming
 
 <img src = "./mode_5/images/image7.png">
