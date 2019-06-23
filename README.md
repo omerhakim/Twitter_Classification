@@ -1,14 +1,15 @@
 # PoliTwitting
 ## Twitter-based NLP Classifications
-This NLP classification model aims to predict Twitter users’ political inclinations by scraping their tweets. 
-This model is trained by scraping the Twitter accounts of all 508 Congress members( whose politics is, of course, are already known).
-If further developed, this model could be utilized to identify other users’ politics (on a scale) for the purpose of targeting specific messages to them.
+This NLP classification model aims to predict Twitter users’ political inclinations. 
+This model is trained by scraping the Twitter accounts of 508 US Congress members.
+Currently, both models aim to predict if the user is more close to being Democrat or a Republican. If further developed, this model could be utilized to identify other users’ politics (on a scale) for the purpose of targeting specific messages to them.
 After EDA, I created two models comprising of nearly 10,000 features, based on the most common words, which went through tokenization and stemming.
-Both models aim to predict if the user is a Democrat or a Republican.
-The model makes this prediction based on single tweets, whereas the second does that based on all tweets made by the user over the past five months.
 
+The firs model makes this prediction based on single tweets, whereas the second does that based on all tweets made by the user over the past five months.
 
-Using the Library “Twint”, I scraped all the tweets of the US Congress members (House & Senate) between January 1, 2019, and June 12, 2019.
+Following is a summarry of the process of creating the model.
+_____
+Using the Library “Twint”, I scraped all the tweets of the US Congress members (House & Senate) between January 1, 2019, and June 12, 2019. For the twitter accounts names I used the website "Tweet Congress": http://www.tweetcongress.org/home
 
 <img src = "./mode_5/images/image1.png" width="527" height="340">
 
