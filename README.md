@@ -48,7 +48,7 @@ In order the reduce the number of words and create more efficient model, I used 
 
 <img src = "./mode_5/images/image7.png">
 
-in later stage I chose all the words which appear more than 14 times in every group and created my final list of 9639 features and export it to json files.
+My next step was selecting all the words which appear more than 14 times in each party's tweets corpus, and created my final list of 9639 features. The list was saved as Json file. 
 
 <img src = "./mode_5/images/image8.png">
 
