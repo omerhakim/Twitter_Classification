@@ -44,7 +44,7 @@ more images of NGRAMs
 
 
 
-Stemming
+In order the reduce the number of words and create more efficient model, I used the Porter Stemming Algorithm over the tokenized words:
 
 <img src = "./mode_5/images/image7.png">
 
