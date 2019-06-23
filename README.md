@@ -21,14 +21,16 @@ from the top 5 highest number of Tweets by Congressman for the time being resear
 I decided to aim to aproximatly 10,000 featurs/stem words in my model. in order to do it I used different NLP technicks with the Library NLTK. I first merged all the twitts of the democrats to one list and all the republican tweets to other list. I then used Tokenizion and exclude stop word.
 <img src = "./mode_5/images/image4.png">
 
-I did some reaserch regarding the most common words in each group, and later used porter stemming for the vocabulry.
+
 
 <img src = "./mode_5/images/image5.png">
 
-in later stage I chose all the words which appear more than 14 times in every group and created my final list of 9639 features and export it to json files.
+I did some research regarding the most common words in each group, and later used porter stemming for the vocabulry.
 
 <img src = "./mode_5/images/image6.png">
-a
+
+in later stage I chose all the words which appear more than 14 times in every group and created my final list of 9639 features and export it to json files.
+
 <img src = "./mode_5/images/image7.png">
 a
 <img src = "./mode_5/images/image8.png">
