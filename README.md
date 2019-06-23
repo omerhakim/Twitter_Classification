@@ -87,8 +87,8 @@ a
 
 <img src = "./mode_5/images/image19.png">
 
-a
+feature importance
 
 <img src = "./mode_5/images/image20.png">
 
-a
+summary
