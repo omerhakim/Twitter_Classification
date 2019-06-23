@@ -37,15 +37,15 @@ in later stage I chose all the words which appear more than 14 times in every gr
 
 <img src = "./mode_5/images/image8.png">
 
-after having the final fetures I ran tokenization and stemming process on my data and create vectors from each tweet
+after having the final fetures I ran tokenization and stemming process on my data 
 
 <img src = "./mode_5/images/image9.png">
 
-a
+train, test, split
 
 <img src = "./mode_5/images/image10.png">
 
-a
+and create vectors from each tweet
 
 <img src = "./mode_5/images/image11.png">
 
