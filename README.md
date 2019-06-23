@@ -73,7 +73,7 @@ feature importance
 
 <img src = "./mode_5/images/image16.png">
 
-a
+prediction on databased based on individual user
 
 <img src = "./mode_5/images/image17.png">
 
