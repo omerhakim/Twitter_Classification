@@ -56,15 +56,14 @@ a
 
 a
 
-<img src = "./mode_5/images/image12.2.png">
-
-a
 
 <img src = "./mode_5/images/image13.png">
 
 a
 
 <img src = "./mode_5/images/image14.png">
+
+<img src = "./mode_5/images/image12.2.png">
 
 a
 
