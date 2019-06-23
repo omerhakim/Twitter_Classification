@@ -52,11 +52,11 @@ My next step was selecting all the words which appear more than 14 times in each
 
 <img src = "./mode_5/images/image8.png">
 
-after having the final fetures I ran tokenization and stemming process on my data 
+After having the final features list ready,  I created the data frame which will be used in my models. I used again tokenization and stemming process to fit my data frame e with the list of features.
 
 <img src = "./mode_5/images/image9.png">
 
-train, test, split
+train, test, split sklearn
 
 <img src = "./mode_5/images/image10.png">
 
