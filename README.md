@@ -17,7 +17,7 @@ One of the first thing one can notice in the EDA is that the democrats tweet muc
 
 <img src = "./mode_5/images/image3.png">
 
-From the top 5 highest number of Tweets by Congressman( for the time being researched), 4 are democrats (Patty Murray, Debbie Mucarsel Powell, Pramila Jayapal, Sheldon Whitehouse) and only one is republican (Rob Portman).
+From the top 5 of the  Congressman with  highest number of Tweets ( for the time being researched), 4 are democrats (Patty Murray, Debbie Mucarsel Powell, Pramila Jayapal, Sheldon Whitehouse) and only one is republican (Rob Portman).
 
 <img src = "./mode_5/images/image2.png">
 
@@ -25,11 +25,11 @@ I decided to have approximately 10,000 features/stem-words in my future model. T
 
 <img src = "./mode_5/images/image4.png">
 
-Vocabulary
+After exlude the list of stopwords i created, the he total number of words was 3,744,823. The total vocabulry of the corpus was still relatively big: 181,194 words. 
 
 <img src = "./mode_5/images/image5.png">
 
-I did some research regarding the most common words in each group, and later used porter stemming for the vocabulry.
+I did some research regarding the most common unique words in each group, and later used porter stemming for the vocabulry.
 
 <img src = "./mode_5/images/image6.png">
 
