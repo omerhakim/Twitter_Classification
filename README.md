@@ -47,9 +47,6 @@ train, test, split
 
 and create vectors from each tweet
 
-<img src = "./mode_5/images/image11.png">
-
-a
 
 <img src = "./mode_5/images/image12.png">
 
