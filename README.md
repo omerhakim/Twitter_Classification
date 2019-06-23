@@ -9,18 +9,20 @@ The firs model makes this prediction based on single tweets, whereas the second 
 
 Following is a summarry of the process of creating the model.
 _____
-Using the Library “Twint”, I scraped all the tweets of the US Congress members (House & Senate) between January 1, 2019, and June 12, 2019. For the twitter accounts names I used the website "Tweet Congress": http://www.tweetcongress.org/home
+Using the Library “Twint”, I scraped all the tweets of the US Congress members (House & Senate) between January 1, 2019, and June 12, 2019. For the twitter accounts names I used the website "Tweet Congress": http://www.tweetcongress.org/home. I saved all the tweets on a json file.
 
 <img src = "./mode_5/images/image1.png" width="527" height="340">
 
-One of the first thing we can see is that the democrats tweet much more. 267 Democrats responsible for 112,044 tweets while 241 democrats were responsible for 64,236 tweets
+One of the first thing one can notice in the EDA is that the democrats tweet much more. 267 Democrats responsible for 112,044 tweets while 241 democrats were responsible for 64,236 tweets
+
 <img src = "./mode_5/images/image3.png">
 
-from the top 5 highest number of Tweets by Congressman for the time being researched, 4 are democrats (Patty Murray, Debbie Mucarsel Powell, Pramila Jayapal, Sheldon Whitehouse) and only one is republican (Rob Portman).
+From the top 5 highest number of Tweets by Congressman( for the time being researched), 4 are democrats (Patty Murray, Debbie Mucarsel Powell, Pramila Jayapal, Sheldon Whitehouse) and only one is republican (Rob Portman).
 
 <img src = "./mode_5/images/image2.png">
 
-I decided to aim to aproximatly 10,000 featurs/stem words in my model. in order to do it I used different NLP technicks with the Library NLTK. I first merged all the twitts of the democrats to one list and all the republican tweets to other list. I then used Tokenizion and exclude stop word.
+I decided to have approximately 10,000 features/stem-words in my future model. Therefore, I used different NLP methods with the Library NLTK. I first merged all the twits of the democrats to one list and all the republican tweets to another list. I then used Tokenization and exclude stop word.
+
 <img src = "./mode_5/images/image4.png">
 
 Vocabulary
