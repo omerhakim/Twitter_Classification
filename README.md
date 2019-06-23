@@ -11,7 +11,7 @@ Using the Library “Twint”, I scraped all the tweets of the US Congress membe
 
 <img src = "./mode_5/images/image1.png" width="527" height="340">
 
-A
+One of the first thing we can see is that the democrats tweet much more. 267 Democrats responsible for 112,044 tweets while 241 democrats were responsible for 64,236 tweets
 <img src = "./mode_5/images/image3.png">
 
 A
