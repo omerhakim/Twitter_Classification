@@ -66,7 +66,7 @@ Summary of the results:
 
 <img src = "./mode_5/images/image12.1.png">
 
-confusion matrix for the best model (NB):
+Confusion matrix (Left-Democrats, Right- Republicans) for the most accurate model (Naive Bayes):
 
 
 <img src = "./mode_5/images/image13.png">
