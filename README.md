@@ -106,5 +106,5 @@ These are the top 35 features with the highest probability toward each side (per
 
 Future development: In this model, I used a simple R vs. D classification, but future models can also use cosine similarity and other methods to check difference between users and therefore be utilized for targeted messaging.
 Twint is also able to scrape followers, retweets and additional features that could potentially be layered into this model.
-<img src = "./mode_5/images/image26.png">
+<img src = "./mode_5/images/image22.png">
 
