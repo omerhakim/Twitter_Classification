@@ -30,7 +30,7 @@ After exluding the list of stop words i created, the total number of words was 3
 
 <img src = "./mode_5/images/image5.png">
 
-I did some research regarding the most common unique words in each group:
+I did some research regarding the most common unique words and bigrams in each group:
 
 <img src = "./mode_5/images/image6.png">
 <img src = "./mode_5/images/image23.png">
