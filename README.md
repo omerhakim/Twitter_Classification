@@ -62,11 +62,11 @@ The first method of word vectorization I tested was TF-IDF (term frequency–inv
 
 <img src = "./mode_5/images/image12.png">
 
-Tf- Idf
+Summary of the results:
 
 <img src = "./mode_5/images/image12.1.png">
 
-NB confudion matrix
+confusion matrix for the best model (NB):
 
 
 <img src = "./mode_5/images/image13.png">
