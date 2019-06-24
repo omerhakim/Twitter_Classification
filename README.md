@@ -40,11 +40,7 @@ more images of NGRAMs
 
 -
 
-
-
-
-
-In order the reduce the number of words and create more efficient model, I used the Porter Stemming Algorithm over the tokenized words:
+In order to reduce the number of words and create more efficient model, I used the Porter Stemming Algorithm over the tokenized words:
 
 <img src = "./mode_5/images/image7.png">
 
@@ -52,7 +48,7 @@ My next step was selecting all the words which appear more than 14 times in each
 
 <img src = "./mode_5/images/image8.png">
 
-After having the final features list ready,  I created the data frame which will be used in my models. I used again tokenization and stemming process to fit my data frame e with the list of features.
+After selecting the final features ,  I created the data frame which will be used in my models. I used again tokenization and stemming algorithm to fit my data frame  with the list of  the selected features.
 
 <img src = "./mode_5/images/image9.png">
 
