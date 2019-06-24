@@ -71,17 +71,17 @@ Confusion matrix (Left-Democrats, Right- Republicans) for the most accurate mode
 
 <img src = "./mode_5/images/image13.png">
 
-Another NLP method I tested was Count Vectorization with scikit-learn. I checked three different classifier: Multinomial Naive Bayes, Random Forest and XGBoost.
+Another NLP method I tested was Count Vectorization (including bigrmas and trigrams) with scikit-learn. I checked again three different classifier: Multinomial Naive Bayes, Random Forest and XGBoost.
 
 <img src = "./mode_5/images/image14.png">
 
 <img src = "./mode_5/images/image12.2.png">
 
-NB confusion matrix
+Also with the count vector the Naive Bayes had the best results with the following confusion matrix:
 
 <img src = "./mode_5/images/image15.png">
 
-feature importance
+here are the top 35 features with highest probability to each side:
 
 <img src = "./mode_5/images/image16.png">
 
