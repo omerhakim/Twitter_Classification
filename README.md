@@ -53,11 +53,11 @@ After selecting the final features ,  I created the data frame which will be use
 
 <img src = "./mode_5/images/image9.png">
 
-To be able to train and validate the model, I will use the Sklearn Train_Test_Split method. I split the data frame to data and target.
+To be able to train and validate the model, I will used Sklearn Train_Test_Split method. I split the data frame to data and target.
 
 <img src = "./mode_5/images/image10.png">
 
-and create vectors from each tweet
+The first method of word vectorization I tested was TF-IDF (term frequency–inverse document frequency). I trued three different classifier: Multinomial Naive Bayes, Random Forest and XGBoost.
 
 
 <img src = "./mode_5/images/image12.png">
