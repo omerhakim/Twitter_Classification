@@ -53,7 +53,7 @@ After selecting the final features ,  I created the data frame which will be use
 
 <img src = "./mode_5/images/image9.png">
 
-train, test, split sklearn
+To be able to train and validate our model, train, test, split sklearn
 
 <img src = "./mode_5/images/image10.png">
 
