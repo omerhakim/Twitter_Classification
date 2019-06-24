@@ -33,13 +33,9 @@ After exluding the list of stop words i created, the total number of words was 3
 I did some research regarding the most common unique words in each group:
 
 <img src = "./mode_5/images/image6.png">
+<img src = "./mode_5/images/image23.png">
+<img src = "./mode_5/images/image24.png">
 
-
--
-
-more images of NGRAMs
-
--
 
 In order to reduce the number of words and create more efficient model, I used the Porter Stemming Algorithm over the tokenized words:
 
@@ -102,10 +98,7 @@ Here is a summary of all the classifier and methods I used:
 It is interesting to see who are the congress members were the model miss-classified. some of them are to be either progressive republicans are conservative democrats. 
 
 <img src = "./mode_5/images/image19.png">
-
-
--additioanl image
-
+<img src = "./mode_5/images/image25.png">
 
 These are the top 35 features with the highest probability toward each side (per user model):
 
@@ -113,4 +106,5 @@ These are the top 35 features with the highest probability toward each side (per
 
 Future development: In this model, I used a simple R vs. D classification, but future models can also use cosine similarity and other methods to check difference between users and therefore be utilized for targeted messaging.
 Twint is also able to scrape followers, retweets and additional features that could potentially be layered into this model.
+<img src = "./mode_5/images/image26.png">
 
