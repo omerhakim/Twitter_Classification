@@ -53,7 +53,7 @@ After selecting the final features ,  I created the data frame which will be use
 
 <img src = "./mode_5/images/image9.png">
 
-To be able to train and validate our model, I will use the Sklearn Train_Test_Split model
+To be able to train and validate the model, I will use the Sklearn Train_Test_Split method. I split the data frame to data and target.
 
 <img src = "./mode_5/images/image10.png">
 
