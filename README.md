@@ -29,7 +29,7 @@ After exlude the list of stopwords i created, the he total number of words was 3
 
 <img src = "./mode_5/images/image5.png">
 
-I did some research regarding the most common unique words in each group, and later used porter stemming for the vocabulry.
+I did some research regarding the most common unique words in each group, and later used porter stemming for the vocabulary.
 
 <img src = "./mode_5/images/image6.png">
 
