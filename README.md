@@ -57,7 +57,7 @@ To be able to train and validate the model, I will used Sklearn Train_Test_Split
 
 <img src = "./mode_5/images/image10.png">
 
-The first method of word vectorization I tested was TF-IDF (term frequency–inverse document frequency). I trued three different classifier: Multinomial Naive Bayes, Random Forest and XGBoost.
+The first method of word vectorization I tested was TF-IDF (term frequency–inverse document frequency). I checked three different classifier: Multinomial Naive Bayes, Random Forest and XGBoost.
 
 
 <img src = "./mode_5/images/image12.png">
@@ -71,7 +71,7 @@ Confusion matrix (Left-Democrats, Right- Republicans) for the most accurate mode
 
 <img src = "./mode_5/images/image13.png">
 
-count vector
+Another NLP method I tested was Count Vectorization with scikit-learn. I checked three different classifier: Multinomial Naive Bayes, Random Forest and XGBoost.
 
 <img src = "./mode_5/images/image14.png">
 
