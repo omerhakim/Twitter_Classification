@@ -91,19 +91,23 @@ I followed the same process, but this time based the prediction on all the tweet
 
 <img src = "./mode_5/images/image17.png">
 
-NB Cunfusion and accuracy
+The results of the Naive Bayes and count vector were the most accurate.
 
 <img src = "./mode_5/images/image18.png">
 
-summary of all models
+Here is a summary of all the classifier and methods I used:
 
 <img src = "./mode_5/images/image18.1.png">
 
-wrong predictions
+It is interesting to see who are the congress members were the model miss-classified. some of them are to be either progressive republicans are conservative democrats. 
 
 <img src = "./mode_5/images/image19.png">
 
-feature importance
+
+-additioanl image
+
+
+These are the top 35 features with the highest probability toward each side (per user model):
 
 <img src = "./mode_5/images/image20.png">
 
