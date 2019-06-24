@@ -2,7 +2,7 @@
 ## Twitter-based NLP Classifications
 This NLP classification model aims to predict Twitter users’ political inclinations. 
 This model is trained by scraping the Twitter accounts of 508 US Congress members.
-Currently, the model aims to predict if the user is more close to being Democrat or a Republican. If further developed, this model could be utilized to identify other users’ politics (on a scale) for the purpose of targeting specific messages to them.
+Currently, the model aims to predict if the user stated opinions are similar to being Democrat or a Republican. If further developed, this model could be utilized to identify other users’ politics (on a scale) for the purpose of targeting specific messages to them.
 After EDA, I created two models comprising of nearly 10,000 features, based on the most common words, which went through tokenization and stemming.
 
 The firs model makes this prediction based on single tweets, whereas the second does that based on all tweets made by the user over the past five months.
