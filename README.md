@@ -81,11 +81,13 @@ Also with the count vector the Naive Bayes had the best results with the followi
 
 <img src = "./mode_5/images/image15.png">
 
-here are the top 35 features with highest probability to each side:
+These are the top 35 features with the highest probability toward each side:
 
 <img src = "./mode_5/images/image16.png">
 
-prediction on databased based on individual user
+
+
+I followed the same process, but this time based the prediction on all the tweets of individual user in the last 5 months.
 
 <img src = "./mode_5/images/image17.png">
 
