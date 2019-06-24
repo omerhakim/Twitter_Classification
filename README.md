@@ -6,7 +6,7 @@ Currently, the model aims to predict if the user stated opinions are more simila
 
 After EDA, I created two  sub-models comprising of nearly 10,000 features, based on the most common words, which went through tokenization and stemming algorithm.
 
-The first model makes this prediction based on single tweets, whereas the second does that based on all tweets made by the user over the past five months.
+The first model makes this prediction based on single tweet, whereas the second does that based on all tweets made by the user over the past five months.
 
 Following is a summary of the process of creating the model.
 _____
