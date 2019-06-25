@@ -12,7 +12,7 @@ Following is a summary of the process of creating the model.
 _____
 Using the Library “Twint”, I scraped all the tweets of the US Congress members (House & Senate) between January 1, 2019, and June 12, 2019. For the twitter accounts names I used the website "Tweet Congress": http://www.tweetcongress.org/home. I saved all the tweets on a json file.
 
-<img src = "./mode_5/images/image1.png" width="527" height="340">
+<img src = "./images/image1.png" width="527" height="340">
 
 One of the first thing one can notice in the EDA is that the democrats tweet much more. 267 Democrats responsible for 112,044 tweets while 241 democrats were responsible for 64,236 tweets
 
