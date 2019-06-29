@@ -96,7 +96,7 @@ Below is a summary of all the classifier and methods used under this model:
 Interestingly, miss-classified Congress members are known to be either progressive Republicans or conservative Democrats.
 
 <img src = "./images/image19.png">
-<img src = "./images/image25.png" style = max width = 65%>
+<img src = "./images/image25.png" style = max width = 60%>
 
 Below are the top 35 features with the highest probability toward each side (per user model):
 
