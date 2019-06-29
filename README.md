@@ -35,8 +35,8 @@ After excluding the list of stop words created for the project, the total number
 The next step was researching the most common unique words and bigrams in each group:
 
 <img src = "./images/image6.png">
-<img src = "./images/image23.png" style = max width = 85%>
-<img src = "./images/image24.png" style = max width = 85%>
+<img src = "./images/image23.png" style = max width = 80%>
+<img src = "./images/image24.png" style = max width = 82%>
 
 
 In order to reduce the number of words and create more efficient model, the Porter Stemming Algorithm was applied to the tokenized words:
