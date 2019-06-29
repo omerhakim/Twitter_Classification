@@ -104,5 +104,5 @@ Below are the top 35 features with the highest probability toward each side (per
 
 Future development: this model delivered a binary R or D classification.  Further development will focus on utilizing cosine similarity and other methods to acheive a more scaled classification output.  In additional next step for the model would be to apply it to other users for targeted messaging. Finally, certain Twint capabilities, including scraping followers and retweets, and additional data, could be potentially layered into this model.
 
-<img src = "./images/image22.png">
+<img src = "./images/image22.png" style = max width = 80%>
 
