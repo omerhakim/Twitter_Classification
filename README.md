@@ -96,13 +96,14 @@ Below is a summary of all the classifier and methods used under this model:
 Interestingly, miss-classified Congress members are known to be either progressive Republicans or conservative Democrats.
 
 <img src = "./images/image19.png">
-<img src = "./images/image25.png" style = max width = 80%>
+<img src = "./images/image25.png" style = max width = 70%>
 
 Below are the top 35 features with the highest probability toward each side (per user model):
 
 <img src = "./images/image20.png">
 
 Future development:
+
 this model delivered a binary R or D classification.  Further development will focus on utilizing cosine similarity and other methods to achieve a more scaled classification output.  In additional next step for the model would be to apply it to other users for targeted messaging. Finally, certain Twint capabilities, including scraping followers and retweets, and additional data, could be potentially layered into this model.
 
 <img src = "./images/image22.png" style = max width = 80%>
