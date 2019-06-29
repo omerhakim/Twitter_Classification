@@ -3,9 +3,9 @@
 This NLP classification model aims to predict Twitter users’ political views based on the contents of their Twitter accounts (tweets).
 This model is trained by scraping the Twitter accounts of 508 US Congress members. 
 The first step in building the model was applying an EDA which included tokenization, stemming, and exclusion of stopwords. The EDA yielded nearly 10,000 features/stem words, narrowed down from over 180,000, based on the most common words in the corpus.   
-After the EDA, I compared two methods of word vectorizion: Count Vector and TF-IDF, by applying three algorithms to them: Naive Bayes, Random Forest and XGBoost. The ultimate combination of word vectorization method & algorithm was identified for each of the two sub-models created in this project: The single tweet-based predicition, and the user's past five months' tweets-based prediction.
+After the EDA, I compared two methods of word vectorization: Count Vector and TF-IDF, by applying three algorithms to them: Naive Bayes, Random Forest and XGBoost. The ultimate combination of word vectorization method & algorithm was identified for each of the two sub-models created in this project: The single tweet-based prediction, and the user's past five months' tweets-based prediction.
 
-This model, if further developed, will be able to identify other users’ politics, and even place them on a scale (as opposed to simply determine R or D).  That ability should be vaulable for targeting specific messages to users based on their politics.
+This model, if further developed, will be able to identify other users’ politics, and even place them on a scale (as opposed to simply determine R or D).  That ability should be valuable for targeting specific messages to users based on their politics.
 
 
 
