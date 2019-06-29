@@ -32,7 +32,7 @@ After excluding the list of stop words created for the project, the total number
 
 <img src = "./images/image5.png">
 
-The next step was researchong the most common unique words and bigrams in each group:
+The next step was researching the most common unique words and bigrams in each group:
 
 <img src = "./images/image6.png">
 <img src = "./images/image23.png">
