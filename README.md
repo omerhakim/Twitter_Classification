@@ -3,7 +3,7 @@
 This NLP classification model aims to predict Twitter users’ political views based on the contents of their Twitter accounts (tweets).
 This model is trained by scraping the Twitter accounts of 508 US Congress members. 
 The first step in building the model was applying an EDA which included tokenization, stemming, and exclusion of stopwords. The EDA yielded nearly 10,000 features, selected based on the most common words in the corpus.   
-After the EDA, I compared two methods of word vectorizion: Count Vector and TF-IDF, by applying three algorithms to them: Naive Bayes, Random Forest and XGBoost. The ultimate combination of word vectorization method & algorithm was identified for each of the two sub-models created in this project: the single tweet-based predicition, and the user's past five months' tweets-based prediction.
+After the EDA, I compared two methods of word vectorizion: Count Vector and TF-IDF, by applying three algorithms to them: Naive Bayes, Random Forest and XGBoost. The ultimate combination of word vectorization method & algorithm was identified for each of the two sub-models created in this project: The single tweet-based predicition, and the user's past five months' tweets-based prediction.
 
 This model, if further developed, will be able to identify other users’ politics, and even place them on a scale (as opposed to simply determine R or D).  That ability should be vaulable for targeting specific messages to users based on their politics.
 
@@ -16,11 +16,11 @@ Using the Library “Twint”, I scraped all the tweets of the US Congress membe
 
 <img src = "./images/image1.png" width="527" height="340">
 
-One of the most predomonent things about the EDA, is that Democrat Congress Members tweet more than Republicans ones. 267 Democrats posted 112,044 tweets during the period in question, wheareas 241 Democrats posted 64,236 tweets.
+Interestingly, Democrat Congress Members tweet more than Republicans ones. 267 Democrats posted 112,044 tweets during the period in question, wheareas 241 Democrats posted 64,236 tweets.
 
 <img src = "./images/image3.png">
-
-From the top 5 of the  Congressman with  highest number of Tweets ( for the time being researched), 4 are democrats (Patty Murray, Debbie Mucarsel Powell, Pramila Jayapal, Sheldon Whitehouse) and only one is a republican (Rob Portman).
+ 
+Of the 5 Congressman with the highest number of tweets, 4 are Democrats: Patty Murray, Debbie Mucarsel Powell, Pramila Jayapal, Sheldon Whitehouse. The only Republican of the top 5 is congressman Rob Portman.
 
 <img src = "./images/image2.png">
 
