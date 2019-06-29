@@ -1,12 +1,13 @@
 # PoliTwitting
 ## Twitter-based NLP Classifications
-This NLP classification model aims to predict Twitter users’ political inclinations. 
-This model is trained by scraping the Twitter accounts of 508 US Congress members.
-Currently, the model aims to predict if the user stated opinions are more similar to being Democrat or a Republican. If further developed, this model could be utilized to identify other users’ politics (on a scale) for the purpose of targeting specific messages to them.
+This NLP classification model aims to predict Twitter users’ political views based on the contents of their Twitter accounts (tweets).
+This model is trained by scraping the Twitter accounts of 508 US Congress members. 
+The first step in building the model was applying an EDA which included tokenization, stemming, and excludision of stopwords. The EDA yielded 10,000 features, selected based on the most common words in the corpus.   
+After the EDA, I compared two methods of word vectorizion: Count Vector and TF-IDF, by applying three algorithms to them: Naive Bayes, Random Forest and XGBoost. The ultimate combination of word vectorization method & algorithm was identified for each of the two sub-models created under this model: the single tweet-based predicition sub-model, and the past five months' tweets-based prediction sub-model.
+This model (if further developed) will be able to identify other users’ politics, and even place them on a scale (as opposed to simply determine R or D).  That ability should be vaulable for targeting specific messages to users based on their politics.
 
-After EDA, I created two  sub-models comprising of nearly 10,000 features, based on the most common words, which went through tokenization and stemming algorithm.
 
-The first model makes this prediction based on single tweet, whereas the second does that based on all tweets made by the user over the past five months.
+
 
 Following is a summary of the process of creating the model.
 _____
