@@ -16,7 +16,7 @@ Using the Library “Twint”, I scraped all the tweets of the US Congress membe
 
 <img src = "./images/image1.png" width="527" height="340">
 
-Interestingly, Democrat Congress Members tweet more than Republicans ones. 267 Democrats posted 112,044 tweets during the period in question, wheareas 241 Democrats posted 64,236 tweets.
+Interestingly, Democrat Congress Members tweet more than Republicans ones. 267 Democrats posted 112,044 tweets during the period in question, whereas 241 Democrats posted 64,236 tweets.
 
 <img src = "./images/image3.png">
  
@@ -28,7 +28,7 @@ The goal for the future model was set at around 10,000 features/stem-words.  To 
 
 <img src = "./images/image4.png">
 
-After exluding the list of stop words created for the project, the total number of words was 3,744,823. The total vocabulry of the entire corpus was still relatively large: 181,194 words. 
+After excluding the list of stop words created for the project, the total number of words was 3,744,823. The total vocabulary of the entire corpus was still relatively large: 181,194 words. 
 
 <img src = "./images/image5.png">
 
