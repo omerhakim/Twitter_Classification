@@ -24,8 +24,7 @@ Of the 5 Congressman with the highest number of tweets, 4 are Democrats: Patty M
 
 <img src = "./images/image2.png">
 
-Since the goal for the future model was set at around 10,000 features/stem-words, different NLP methods with the Library NLTK were used to select the best features. I first merged all the tweets of the democrats to one list and all the republican tweets to another list. I then used Tokenization and exclude stop words.
-
+The goal for the future model was set at around 10,000 features/stem-words.  To select those features, Tweets were first combined into a "Democrat" and "Republican" lists.  Then, certain NLP methods, such as  tokenization, stemming, and exclusion of stopwords, together with the NLTK Library, were applied to those lists to make the selection.
 <img src = "./images/image4.png">
 
 After exluding the list of stop words i created, the total number of words was 3,744,823. The total vocabulry of the entire corpus was still relatively big: 181,194 words. 
