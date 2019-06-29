@@ -47,16 +47,15 @@ As a final step of comprising the corpus - words appearing more than 14 times in
 
 <img src = "./images/image8.png">
 
-Upon finalizing the list, the data frame to be used for the models was created. Once again, tokenization and a stemming algorithm were ised to tie between the data frame with the list of  the selected features.
+Next, tokenization and a stemming algorithm were used to fit the new data frame - namely, the content scraped from Twitter - with the list of the selected features.
 
 <img src = "./images/image9.png">
 
-To be able to train and validate the model, I will used Sklearn Train_Test_Split method. I split the data frame to data and target.
+After dividing the data frame into 'data' and 'target', the Sklearn Train_Test_Split method was applied in order to train and validate the model.
 
 <img src = "./images/image10.png">
 
-The first method of word vectorization I tested was TF-IDF (term frequency–inverse document frequency). I checked three different classifier: Multinomial Naive Bayes, Random Forest and XGBoost.
-
+The first method of word vectorization tested under this model was TF-IDF (term frequency–inverse document frequency). Three different classifiers were tested: Multinomial Naive Bayes, Random Forest, and XGBoost.
 
 <img src = "./images/image12.png">
 
@@ -66,49 +65,44 @@ Summary of the results:
 
 Confusion matrix (Left-Democrats, Right- Republicans) for the most accurate model (Naive Bayes):
 
-
 <img src = "./images/image13.png">
 
-Another NLP method I tested was Count Vectorization (including bigrmas and trigrams) with scikit-learn. I checked again three different classifier: Multinomial Naive Bayes, Random Forest and XGBoost.
+Another NLP method tested under this project was Count Vectorization (including bigrmas and trigrams) with SKLearn. Again, three different classifier were tested: Multinomial Naive Bayes, Random Forest and XGBoost.
 
 <img src = "./images/image14.png">
 
 <img src = "./images/image12.2.png">
 
-Also with the count vector the Naive Bayes had the best results with the following confusion matrix:
+With the following confusion matrix, Naive Bayes scored the highest under the Count Vectorization method as well.
 
 <img src = "./images/image15.png">
 
-These are the top 35 features with the highest probability toward each side:
+Below are the top 35 features with the highest probability toward each side:
 
 <img src = "./images/image16.png">
 
-
-
-I followed the same process, but this time based the prediction on all the tweets of individual user in the last 5 months.
+The above process was repeated to create the second sub-model.  This time, it has been applied to all tweets made by each individual user over the past 5 months.
 
 <img src = "./images/image17.png">
 
-The results of the Naive Bayes and count vector were the most accurate.
+The results of the Naive Bayes and Count Vectorization were found to be the most accurate.
 
 <img src = "./images/image18.png">
 
-Here is a summary of all the classifier and methods I used:
+Below is a summary of all the classifier and methods used under this model:
 
 <img src = "./images/image18.1.png">
 
-It is interesting to see who are the congress members were the model miss-classified. some of them are to be either progressive republicans are conservative democrats. 
+Interestingly, miss-classified Congress members are known to be either progressive Republicans or conservative Democrats.
 
 <img src = "./images/image19.png">
 <img src = "./images/image25.png">
 
-These are the top 35 features with the highest probability toward each side (per user model):
+Below are the top 35 features with the highest probability toward each side (per user model):
 
 <img src = "./images/image20.png">
 
-Future development: In this model, I used a simple R vs. D classification, but future models can also use cosine similarity and other methods to check difference between users and therefore be utilized for targeted messaging.
-Twint is also able to scrape followers, retweets and additional features that could potentially be layered into this model.
-
+Future development: this model delivered a binary R or D classification.  Further development will focus on utilizing cosine similarity and other methods to acheive a more scaled classification output.  In additional next step for the model would be to apply it to other users for targeted messaging. Finally, certain Twint capabilities, including scraping followers and retweets, and additional data, could be potentially layered into this model.
 
 <img src = "./images/image22.png">
 
