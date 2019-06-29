@@ -35,8 +35,8 @@ After excluding the list of stop words created for the project, the total number
 The next step was researching the most common unique words and bigrams in each group:
 
 <img src = "./images/image6.png">
-<img src = "./images/image23.png">
-<img src = "./images/image24.png">
+<img src = "./images/image23.png" style = max width = 85%>
+<img src = "./images/image24.png" style = max width = 85%>
 
 
 In order to reduce the number of words and create more efficient model, the Porter Stemming Algorithm was applied to the tokenized words:
@@ -106,5 +106,5 @@ Future development:
 
 this model delivered a binary R or D classification.  Further development will focus on utilizing cosine similarity and other methods to achieve a more scaled classification output.  In additional next step for the model would be to apply it to other users for targeted messaging. Finally, certain Twint capabilities, including scraping followers and retweets, and additional data, could be potentially layered into this model.
 
-<img src = "./images/image22.png" style = max width = 80%>
+<img src = "./images/image22.png" style = max width = 75%>
 
