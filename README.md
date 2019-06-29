@@ -15,7 +15,7 @@ Using the Library “Twint”, I scraped all the tweets of the US Congress membe
 
 <img src = "./images/image1.png" width="527" height="340">
 
-One of the most predomonent things about the EDA, is that Democrat Congress Members tweet more than Republicans ones. 267 Democrats responsible posted 112,044 tweets during the period in question, wheareas 241 Democrats posted 64,236 tweets.
+One of the most predomonent things about the EDA, is that Democrat Congress Members tweet more than Republicans ones. 267 Democrats posted 112,044 tweets during the period in question, wheareas 241 Democrats posted 64,236 tweets.
 
 <img src = "./images/image3.png">
 
