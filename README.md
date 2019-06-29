@@ -11,11 +11,11 @@ This model (if further developed) will be able to identify other users’ politi
 
 Following is a summary of the process of creating the model.
 _____
-Using the Library “Twint”, I scraped all the tweets of the US Congress members (House & Senate) between January 1, 2019, and June 12, 2019. For the twitter accounts names I used the website "Tweet Congress": http://www.tweetcongress.org/home. I saved all the tweets on a json file.
+Using the Library “Twint”, I scraped all the tweets of the US Congress members (House & Senate) between January 1, 2019, and June 12, 2019. For the Twitter accounts names I used the website "Tweet Congress": http://www.tweetcongress.org/home. I saved all the tweets on a json file.
 
 <img src = "./images/image1.png" width="527" height="340">
 
-One of the first thing one can notice in the EDA is that the democrats tweet much more. 267 Democrats responsible for 112,044 tweets while 241 democrats were responsible for 64,236 tweets
+One of the most predomonent things about the EDA, is that Democrat Congress Members tweet more than Republicans ones. 267 Democrats responsible posted 112,044 tweets during the period in question, wheareas 241 Democrats posted 64,236 tweets.
 
 <img src = "./images/image3.png">
 
