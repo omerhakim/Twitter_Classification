@@ -24,29 +24,30 @@ Of the 5 Congressman with the highest number of tweets, 4 are Democrats: Patty M
 
 <img src = "./images/image2.png">
 
-The goal for the future model was set at around 10,000 features/stem-words.  To select those features, Tweets were first combined into a "Democrat" and "Republican" lists.  Then, certain NLP methods, such as  tokenization, stemming, and exclusion of stopwords, together with the NLTK Library, were applied to those lists to make the selection.
+The goal for the future model was set at around 10,000 features/stem-words.  To select those features, Tweets were first combined into "Democrat" and "Republican" lists.  Then, in order to make the selection, certain NLP methods, such as  tokenization, stemming, and exclusion of stopwords, were applied with the  NLTK Library.
+
 <img src = "./images/image4.png">
 
-After exluding the list of stop words i created, the total number of words was 3,744,823. The total vocabulry of the entire corpus was still relatively big: 181,194 words. 
+After exluding the list of stop words created for the project, the total number of words was 3,744,823. The total vocabulry of the entire corpus was still relatively large: 181,194 words. 
 
 <img src = "./images/image5.png">
 
-I did some research regarding the most common unique words and bigrams in each group:
+The next step was researchong the most common unique words and bigrams in each group:
 
 <img src = "./images/image6.png">
 <img src = "./images/image23.png">
 <img src = "./images/image24.png">
 
 
-In order to reduce the number of words and create more efficient model, I used the Porter Stemming Algorithm over the tokenized words:
+In order to reduce the number of words and create more efficient model, the Porter Stemming Algorithm was applied to the tokenized words:
 
 <img src = "./images/image7.png">
 
-My next step was selecting all the words which appear more than 14 times in each party's tweets corpus, and created my final list of 9639 features. The list was saved as Json file. 
+As a final step of comprising the corpus - words appearing more than 14 times in a party's tweets corpus were selected, yielding a final list with 9,639 features. That list was saved as a Json file. 
 
 <img src = "./images/image8.png">
 
-After selecting the final features ,  I created the data frame which will be used in my models. I used again tokenization and stemming algorithm to fit my data frame  with the list of  the selected features.
+Upon finalizing the list, the data frame to be used for the models was created. Once again, tokenization and a stemming algorithm were ised to tie between the data frame with the list of  the selected features.
 
 <img src = "./images/image9.png">
 
